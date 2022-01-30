@@ -314,6 +314,8 @@ input[type="checkbox"]:checked ~ .menu {
 
 .menu-item a:hover {
   color: #c7b29a;
+  border-bottom: 1px solid #c7b29a;
+  padding-bottom: 9px;
 }
 
 
