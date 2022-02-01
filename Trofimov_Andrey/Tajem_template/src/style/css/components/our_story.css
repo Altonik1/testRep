@@ -1,0 +1,69 @@
+.our_story_block {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.our_story_img_big_logo {
+    width: 235px;
+    height: 229px;
+    margin-top: 8px;
+}
+
+.h2_header {
+    font-family: 'Playfair Display';
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #413d4b;
+}
+
+.our_story_text {
+    opacity: 0.95;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 350;
+    letter-spacing: 0.03em;
+    color: #413d4b;
+    width: 540px;
+}
+
+.button.button-primary.button_colot_green:hover {
+    background-color: #00e0d0;
+}
+
+.location_button {
+    margin-top: 0;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.bottom_white_block {
+    position: relative;
+}
+
+.our_works_foto_block {
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.our_works_img {
+    width: 224.8px;
+    height: 200px;
+}
+
+.our_works_foto_block_one_line {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}

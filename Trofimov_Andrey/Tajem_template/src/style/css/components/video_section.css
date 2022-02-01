@@ -1,0 +1,90 @@
+.section-img-video {
+    position: relative;
+    height: 550px;
+    width: 100%;
+}
+
+.img-video-images {
+    height: 250px;
+    position: absolute;
+    z-index: -2;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+}
+
+.img-video-overlay {
+    background-image: linear-gradient(to right, #09052f 0%, #311d5e 100%);
+    opacity: 0.70;
+    height: 550px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.img-video-picture {
+    height: 550px;
+}
+
+.triangle {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    display: inline-flex;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 60px;
+}
+
+.triangle::before {
+    content: "";
+    border: 24px solid transparent;
+    position: absolute;
+    border-left: 30px solid gray;
+    top: 16px;
+    right: -5px;
+}
+
+.triangle:hover {
+    background-color: lightgray;
+}
+
+.triangle:hover::before {
+    border-left: 30px solid white;
+    right: -5px;
+}
+
+.img-video-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.img_video_text .img_video_text_link {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+}
+
+.img_video_text:hover .img_video_text_link:hover {
+    color: lightgrey;
+}
+
+.img_video_description {
+    margin-top: 20px;
+}

@@ -1,0 +1,134 @@
+.section {
+    position: relative;
+    width: 100%;
+}
+
+.section-title {
+    font-family: 'Playfair Display';
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 900;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+}
+
+.section-subtitle {
+    border-top: 1px solid #00e0d0;
+    width: 50px;
+    height: 1px;
+    align-items: center;
+}
+
+.section-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+}
+
+
+.section-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -2;
+}
+
+.section-background img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(to right, #09052f 0%, #311d5e 100%);
+    opacity: 0.70;
+    z-index: -1;
+}
+
+.section-foreground {
+    color: #fff;
+    height: 470px;
+    flex-direction: column;
+    display: flex;
+}
+
+.section-hero .section-header {
+    flex-basis: 80px;
+}
+
+.section-hero .section-body {
+    width: 772px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.section-midle {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.section-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.w-100-height {
+    height: 350px;
+}
+
+.carousel-indicators_top {
+    height: 50px;
+    z-index: 3;
+    left: 100px;
+    bottom: -20px;
+
+}
+
+.carousel-inner_top {
+    height: 400px;
+}
+
+.color_li {
+    background-color: transparent;
+    z-index: 3;
+    width: 10px;
+    height: 10px;
+    margin-right: 3px;
+    border: 1px solid #c2c2c2;
+    border-radius: 50px;
+}
+
+.color_li:hover {
+    background-color: #00e0d0;
+}
+
+.hero_location_button {
+    position: relative;
+}
+
+.hero_location_button_1 {
+    position: relative;
+    left: -141px;
+    top: -20px;
+}

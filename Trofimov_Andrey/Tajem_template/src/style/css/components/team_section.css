@@ -1,0 +1,72 @@
+.h2_expertise.color_2_h2 {
+    color: white;
+    margin-top: 70px;
+}
+
+.description_expertise.color_2_description {
+    color: white;
+}
+
+.line-expertise.color_2_line {
+    background-color: #655d80;
+    margin-bottom: 50px;
+}
+
+.cards_team {
+    width: 960px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-img-top {
+    width: 220px;
+    height: 230px;
+    border: 1px solid #e1e1e1;
+}
+
+.card-text.card-header {
+    opacity: 0.87;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    margin-top: 0;
+}
+
+.card-text.card-text_position {
+    opacity: 0.61;
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #fafafa;
+    margin-top: 0;
+}
+
+.card-body {
+    text-align: center;
+    width: 220px;
+    padding: 10px;
+}
+
+.team_section-body {
+    margin-top: 50px;
+}
+
+.card {
+    border: 1px solid #e1e1e1;
+    background-color: transparent;
+}
+
+.team_bottom_content_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+    padding-bottom: 70px;
+}

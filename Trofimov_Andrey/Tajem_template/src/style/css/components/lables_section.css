@@ -1,0 +1,133 @@
+.header_block_lables {
+    font-family: 'Playfair Display';
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #413d4b;
+}
+
+.lables_section {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+}
+
+.form_lables {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+.lables_img_1 {
+    width: 162px;
+    height: 22px;
+}
+
+.lables_img_2 {
+    width: 154px;
+    height: 41px;
+}
+
+.lables_img_3 {
+    width: 151px;
+    height: 24px;
+}
+
+.lables_img_4 {
+    width: 113px;
+    height: 69px;
+}
+
+.lables_img_5 {
+    width: 109px;
+    height: 53px;
+}
+
+.lables_img_6 {
+    width: 138px;
+    height: 22px;
+}
+
+.lables_img_7 {
+    width: 140px;
+    height: 21px;
+}
+
+.lables_img_8 {
+    width: 95px;
+    height: 34px;
+}
+
+.lables_img_9 {
+    width: 114px;
+    height: 56px;
+}
+
+.lables_img_10 {
+    width: 130px;
+    height: 70px;
+}
+
+.logo_block_lables {
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+}
+
+.column_logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 410px;
+}
+
+.left_block_lables, .right_block_lables {
+    margin-top: 70px;
+}
+
+.name_form {
+    width: 460px;
+    height: 45px;
+    opacity: 0.9;
+    border: 1px solid #cecdcd;
+    margin-bottom: 25px;
+    opacity: 0.9;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    color: #151516;
+    padding-left: 15px;
+}
+
+.text_form {
+    min-width: 460px;
+    height: 200px;
+    opacity: 0.9;
+    border: 1px solid #cecdcd;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    color: #151516;
+    padding-left: 15px;
+    padding-top: 10px;
+    resize: none;
+}
+
+.right_block_lables {
+    margin-left: 100px;
+}
+
+.location_button_lables {
+    margin-bottom: 70px;
+}
+
+.right_column_logo_lables {
+    margin-left: 80px;
+}

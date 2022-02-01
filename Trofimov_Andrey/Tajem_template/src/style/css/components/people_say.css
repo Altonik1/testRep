@@ -1,0 +1,60 @@
+.people_say_block {
+    margin-top: -30px;
+    top: 15%;
+    transform: translate(0, 0);
+}
+
+.item_people_say_img {
+    width: 43px;
+    height: 35px;
+}
+
+.people_say_carousel_text {
+    opacity: 0.85;
+    font-family: 'Playfair Display';
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+    width: 772px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 30px;
+}
+
+.people_say_carousel_name {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+   
+}
+
+.people_say_carousel_position {
+    opacity: 0.7;
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 0;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.turn_left_carousel {
+    height: 30px;
+    width: 30px;
+    left: 33%;
+    top: 75%;
+    transform: translate(0, 0);
+}
+
+.turn_right_carousel {
+    height: 30px;
+    width: 30px;
+    right: 33%;
+    top: 75%;
+    transform: translate(0, 0);
+}

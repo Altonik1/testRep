@@ -1,0 +1,78 @@
+.wrapper_button_block {
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: Arial;
+    height: 40px;
+    transform: translate(27%, 35%);
+}
+
+.btn {
+    display: block;
+    width: 220px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #00e0d0;
+    border: 1px solid #00e0d0;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: white;
+    border: 1px solid white;
+}
+
+
+.popup {
+    display: block;
+    height: 100px;
+    margin: 0 auto;
+    width: 50%;
+    background-color: #00e0d0;
+    opacity: 0.9;
+    color: white;
+    position: relative;
+    transition: .5s all;
+    top: -9999px;
+    border-radius: 5px;
+}
+
+.popup input {
+    display: block;
+    width: 100%;
+    border: none;
+    height: 25px;
+    line-height: 25px;
+}
+
+.submit_button {
+    background-color: white;
+    cursor: pointer;
+}
+
+#modal:checked ~ .popup {
+    top: 15px;
+    left: -142px;
+}
+
+#modal {
+    display: none;
+}
+
+.btn_close {
+    color: white;
+    position: absolute;
+    bottom: -27px;
+    right: 41.5%;
+    transform: rotate(45deg);
+    font-size: 64px;
+    cursor: pointer;
+}
+
+.btn_text_form {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    top: 15px;
+}
