@@ -1,0 +1,69 @@
+.review-section{
+    background:url('../../assets/img/section-overlay.png') no-repeat,
+    url('../../assets/img/reviews-img.png') no-repeat;
+    background-size: cover;
+    .carousel{
+        &-inner{
+            height: auto;
+        }
+        &-slide-title{
+            font-size: 100px;
+            line-height: 65px;
+            font-weight: 400;
+        }
+        &-caption{
+            height: auto;
+        }
+        &-item{
+            height: auto;
+        }
+        .blockquote{
+            font-family: 'Playfair Display';
+            font-size: 16px;
+            line-height: 26px;
+            color: #fff;
+            opacity: 0.85;
+        }
+        .person{
+            margin: 0 auto;
+        }
+        &-indicators{
+            position: static;
+            display: flex;
+            align-items: center;
+            height: 75px;
+            .radio-btn{
+                height: 45px;
+                width: 45px;
+                margin: 0 15px;
+                border: none;
+                background-repeat: no-repeat;
+                background-size: cover;
+                opacity: 1;
+                transition: all 0.3s ease;
+            }
+            .radio-btn.active{
+                width: 75px;
+                height: 75px;
+                margin: 0;
+                border-color: none;
+                background-color: none;
+            }
+            .radio-btn:first-child{
+                background-image: url('../../assets/img/photos/Fresnel.jpg');
+            }
+            .radio-btn:nth-child(2){
+                background-image: url('../../assets/img/photos/Kapitsa.jpg');
+            }
+            .radio-btn:nth-child(3){
+                background-image: url('../../assets/img/photos/Landau.jpg');
+            }
+            .radio-btn:nth-child(4){
+                background-image: url('../../assets/img/photos/Newton.jpg');
+            }
+            .radio-btn:nth-child(5){
+                background-image: url('../../assets/img/photos/Gauss.jpg');
+            }
+        }
+    }
+}
