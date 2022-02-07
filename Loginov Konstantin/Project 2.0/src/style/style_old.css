@@ -1,0 +1,131 @@
+body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.wrapper {
+    width: 1500px;
+    height: 100%;
+    margin: 0 auto; 
+}
+
+.header {
+    width:100%;
+    height: 200px;
+    background-color: #445162;
+    padding: 50px;
+}
+
+.header-name {
+    width: 60%;
+    margin-right: 0px;
+}
+
+h1 {
+    font-size: 45px;
+    margin-top: 0px;
+    color: white;
+}
+
+.header-list {
+    list-style: none;
+    display: inline-block;
+    width: 60%;
+    color: white;
+    font-size: 22px;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
+.header-list__item::before {
+    content: '\2714'; 
+}
+
+.header-image {
+    width: 200px;
+    height: 160px;
+    display: inline-block;
+    padding-left: 40px;
+    margin-top: 0px;
+    position: absolute;
+}
+
+.section {
+    width: 100%;
+    padding: 50px;
+    background-color: white; 
+}
+
+.section:nth-child(even) {
+    background-color: #F5F5F5;
+}
+
+.section-content__header h2 {
+font-size: 30px;
+text-align: center;
+}
+
+.section:first-child .section-content__header h2 {
+    font-size: 30px;
+    text-align: left;
+}
+
+.section-content .text {
+    display: inline-block;
+    width: 60%;
+}
+
+.section-content .text p {
+
+}
+
+.section-content .image {
+    width: 150px;
+    height: 120px;
+    display: inline-block;
+    padding-left: 40px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-height: 300px;
+    align-items: center;
+}
+
+.list__item {
+    margin-bottom: 10px;
+    width: 30%;
+    margin-right: 50px;
+    position: relative;
+}
+
+.list__item::before {
+    content: "+";
+    display: block;
+    padding: 0px 5px 0px 5px;
+    background: #445162;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    left: -45px;
+    top: 25px;
+}
+
+.list__header {
+    margin-bottom: 10px;
+    width: 100%;
+    margin-right: 50px;
+    position: relative;
+}
+
+.section-content__ul {
+   
+}
